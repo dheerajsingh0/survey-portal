@@ -1,0 +1,31 @@
+.actionNavBtns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1%;
+    padding: 1%;
+    border: 0.5px solid;
+}
+
+
+#edit_primary
+{
+    
+    width: 34%;
+    padding: 2%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+}
+
+#edit_primary div
+{
+     display: grid;
+     margin-bottom: 12px;
+}
+input[type="text"],input[type="date"]
+{
+    border:none;
+    border-bottom: 0.5px solid;
+}

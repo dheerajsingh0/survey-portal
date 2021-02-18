@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="welcome.js"></script>
+    <title>Welcome</title>
+    <style>
+    body{
+        margin: 0;
+        background-color: white;
+        }
+
+    .layout{
+        width: 50%;
+        position: absolute;
+       /* border: 0.5px solid; */
+        padding: 1%;
+        font-size: larger;
+        font-family: cambria;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+        text-align: center;
+    }
+    #msg1
+        {
+            width: 50%;
+        position: absolute;
+       /* border: 0.5px solid; */
+        padding: 1%;
+        font-size: larger;
+        font-family: cambria;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+        text-align: center;
+
+        transition-property: opacity; 
+        transition-duration:2s;
+        transition-delay: 0s;
+        transition-delay: 4s;
+        transition-timing-function: linear;
+        }
+
+
+        #msg3{
+            width: 55%;
+            padding: 1%;
+            opacity: 0;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            text-align: justify;
+            transition-property: opacity; 
+            transition-duration:2s;
+            transition-delay: 5s;
+            transition-timing-function: linear;
+            
+        }
+        #msg4,#msg5,#msg6{
+            transition-property: opacity; 
+            transition-duration:2s;
+            transition-delay: 5s;
+             transition-timing-function:linear;
+            
+        }
+        
+    #container{
+       
+        padding: 12px;
+        width: 30%;
+        position: absolute;
+        /* transform: translate(109%,212%); */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 5px;
+        text-align: center;
+        background-color: white;
+        opacity: 0;
+        visibility:visible;
+   
+        transition-property: opacity; 
+        transition-duration:2s;
+         transition-delay: 0s;
+         transition-timing-function:linear;
+
+}   
+    #skipBTN
+    {
+        padding: 2%;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    top: 86%;
+    left: 93%;
+    background-color: ghostwhite;
+    text-decoration: underline;
+    font-family: calibri;
+    font-size: 22px;
+        cursor: pointer;
+    }
+    
+
+    
+    </style>
+
+
+
+</head>
+<body>
+    
+    <div id="container">
+        <h1 id="textShow" style="font-family: Ebrima;">Welcome</h1>
+
+       
+    </div>
+    <div id="msg1">
+        <p >
+            In a Population of 2.5 billion cores.In India
+            yearly,once in five years,monthly,daily surveys based product,services,ideas,feedback are conducted by many
+            brands,company,ranging from small scale to the well known Big-Wigs(i.e,Microsoft,Google,IBM,Flipkart,Amazon etc.)<br>    
+            
+        </p>
+
+    </div>
+<div id="msg3">
+    <h3>Why do they Do this?You ask.</h3>
+    <p style="font-size: 17px;">Because it plays a majour role in taking  descision for future improvement,remake,Upgrading,discontinuity of said services or products offerd by such brands or compnies and The Main Ice Breaker it provides a Mutual communication between the InSight of a consumers perspective  and the companies offered  product or services   </p>
+</div>
+
+
+<div id="msg4" class="layout">
+ <label>In conclusion your Opinion is what matters to Make or Break a compnies fortune</label>
+    
+</div>
+
+<div id="msg5" class="layout">
+    <label>Once Again We Welcome you to....</label>
+</div>
+
+
+<div id="msg6" style="display:grid;" class="layout">
+    <label style="font-size: -webkit-xxx-large;">Indian Opinion</label>
+    <label>(Online Survey Portal)</label>
+    <label>Where Surveys are made.</label>
+
+</div>
+
+
+<button id="skipBTN" onclick='location.href="index.html"'>Skip</button>
+
+</body>
+</html>

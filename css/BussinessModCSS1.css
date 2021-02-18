@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+}
+textarea{
+    font-family: sans-serif;
+}
+
+.navBar{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color:black;
+    color:white;
+    padding: 0.5%;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.45);
+}
+
+.navBtn{
+    border: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 3px;
+    width: 153px;
+    transition: all 0.5s linear;
+}
+
+textarea
+{
+    border: none;
+    resize: none;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.45);
+}
+
+
+.navBtn:hover{
+    background-color:white;
+    color:black; 
+}
+#form2{
+    width: 40%;
+    padding: 3%;
+    margin: auto;
+    margin-top: 1%;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.45);
+    position: absolute;
+    left:50%;top:52.5%;transform: translate(-50%,-50%);
+    display: none;
+}
+#loginFrame{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#form1{
+    width: 30%;
+   
+    padding: 3%;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    box-shadow: 0px 0px 19px rgba(0,0,0,0.45);
+    /*display: none;*/
+
+}
+input[type="text"],input[type="password"],input[type="email"],input[type="number"]{
+    border: none;
+    border-bottom:0.5px solid;
+    margin-bottom:3%; 
+    outline: none;
+    font-size: 18px;
+}
+#loginBtn{
+    border: none;
+    padding: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.45);
+    background-color: lightseagreen;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 2%;
+}
+#RegFrame{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 8px;
+}
+input[type="email"]{
+    border:none;
+    border-bottom: 0.5px solid;
+    
+}
+
+.contactContainer{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.signUPbtns{
+    border: none;
+    padding: 3%;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.45);
+}
+
+#form3-forgotPassword{
+    width: 50%;
+    padding: 3%;
+    box-shadow: 0px 0px 23px rgba(0,0,0,0.45);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+    display: none;
+}
+
+#PswdRecFrame{
+    display: grid;
+    width:50%;
+}
+#setBtn{
+    position: absolute;
+    padding: 9%;
+    border-radius: 70%;
+    font-size: 31px;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    outline: none;
+    cursor: pointer;
+    background: deepskyblue;
+    border: none;
+    box-shadow: 0px 0px 19px rgba(0,0,0,0.45);
+}
+#cancelPswdChange{
+    position: absolute;
+    bottom: 64px;
+    right: 16%;
+}
+
+#hideMe{
+    border: none;
+    margin-bottom: 3%;cursor: pointer;
+}
+#ForgotPSwdBtn{
+    border: none;
+  cursor: pointer;
+}  
+
+.ImageContainer
+{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: -39%;
+    height: 34%;
+    width: 34%;
+    padding: 1%;
+    box-shadow: 0px 0px 19px rgba(0,0,0,0.45);
+    background-color: white;
+
+}
+
+#ImageOfBPro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 0.5px solid;
+    width: 65%;
+    height: 65%;
+    box-shadow: 0px 0px 11px rgba(0,0,0,0.45);
+    object-fit: cover;
+}
+
+#BproImgUpload
+{
+    position: absolute;
+    bottom: 3%;
+    overflow: auto;
+    width: 97%;
+}

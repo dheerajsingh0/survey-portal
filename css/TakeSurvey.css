@@ -1,0 +1,125 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color: rgba(0,0,0,0.85);
+    color: white;
+    display: grid;
+    place-items: center;
+    padding: 4px;
+}
+
+.logo
+{
+text-align: center;
+letter-spacing: 7px;
+font-size: 17px;
+width: 24%;
+}
+
+.status
+{
+    background-color: aquamarine;
+    padding: 3px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+
+#ALLQuestionsContainer
+{
+    margin: auto;
+    
+    width: 70%;
+    padding: 1%;
+}
+
+.SuperContainer
+{
+    padding: 1%;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+    border-radius: 4px;
+        
+}
+.questionIsHere
+{
+    padding: 1%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.optionBox
+{
+    padding: 1%;
+    transition: all 0.3s ease-in-out;
+}
+.optionBox:hover{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.45);
+}
+
+.other
+{
+    padding:1%;
+}
+.CheckBoxCont
+{
+    padding:1%;
+    transition: all 0.3s ease-in-out;
+    box-shadow: none;
+}
+
+.CheckBoxCont:hover
+{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.45);
+}
+
+.Survey_Button
+{
+    padding: 5%;
+    width: 90%;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.45);
+    background-color: rgba(0,0,0,0.65);
+    color: white;
+    transition: all .2s ease-in-out;
+    
+    outline: none;
+}
+
+.ActionButton
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 34%;
+    margin: auto;
+ 
+ 
+}
+
+.Survey_Button:hover
+ {
+    background: rgba(255,255,255,0.90);
+    color: black;
+}
+
+.SUBMITcls
+{
+ 
+    padding: 1%;
+}
+
+input[type="checkbox"],input[type="radio"] {
+    cursor: pointer;
+}
+
+
+.datetype
+{
+    font-size: 18px;
+    font-family: serif;
+}

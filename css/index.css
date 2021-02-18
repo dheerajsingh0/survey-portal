@@ -1,0 +1,535 @@
+body{
+    margin: 0%;
+}
+
+header
+{
+    box-shadow:0px 0px 5px rgba(0,0,0,0.45);
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 6px;
+    font-family: Ebrima;
+    font-weight: 621;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    background-color: rgba(0,0,0,0.65);
+}
+
+#logo
+{
+    display: grid;
+    place-items: center;
+}
+
+.navBarBtn
+{
+    border: none;
+    border-radius: 4px;
+    font-family: ariel;
+    font-size: 17px;
+    margin-right: 5px;
+    cursor: pointer;
+    outline-color: black;
+    background-color: rgba(255,255,255,0.45);
+    transition-property:box-shadow,background-color,color;
+    transition-duration: 0.4s,0.4s,0.4s;
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86), cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.navBarBtn:hover
+{
+   background-color: rgba(0,0,0,0.55);
+   color: white;
+    box-shadow:0px 0px 5px rgba(0,0,0,0.45);
+}
+
+
+#theFrontDP
+{
+   
+    padding: 1%;
+    
+    padding: 1%;
+    height:-webkit-fill-available;
+    background-image: url(../resources/picsAndImages/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.ActionInfo_btn
+{
+    width: 27%;
+    padding: 3%;
+    border-radius: 3px;
+    text-shadow: 0px 4px 17px rgba(0,0,0,0.45);
+    position: relative;
+    left: 149px;
+    top: 25%;
+    color: white;
+}
+
+#heading
+{
+    font-size: 45px;
+    text-shadow: 0px 5px 9px rgba(0,0,0,0.45);
+
+}
+
+#infoContent
+{
+    font-size: 17px;
+    font-family: Ink Free;
+    text-shadow: none;
+    font-weight: 550;
+}
+
+.actionBtn
+{
+    padding: 21px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 45px rgba(0,255,255,0.45);
+    cursor: pointer;
+    font-family: verdana;
+    transition-property: background-color,color;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    outline: black;
+}
+
+.actionBtn:hover{
+    background-color: rgba(255,255,255);
+    color:black;
+}
+
+
+.displaySide
+{
+    width: 150px;
+    position: absolute;
+    height: 150px;
+    padding: 1%;
+    object-fit: cover;
+    background: white;
+    border-radius: 31px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.45);
+}
+.displaySide:hover{
+    z-index: 3;
+}
+#Image1
+{
+    top: 11%;
+    left: 46%;
+}
+#Image2{
+    top: 60%;
+    left: 77%;
+}
+#Image3{
+    top: 62%;
+    left: 49%;
+}
+#Image4
+{
+    top: 11%;
+    left: 77%;
+}
+#Image5{
+    top: 34%;
+    left: 62%;
+   
+}
+#Image6{
+    top: 51%;
+    left: 69%;
+
+}
+#Image7
+{
+    top: 21%;
+    left: 53%;
+}
+
+#How_it_works_cont
+{
+    padding: 2%;
+    height: -webkit-fill-available;
+    display:none;
+    background-color: deepskyblue;
+}
+
+
+#thePublic
+{
+    position: relative;
+    width: 14%;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0px 5px 9px rgba(0,0,0,0.45);
+    top: 18%;
+    left: 2%;
+    border-radius: 12px;
+}
+
+#infoImg
+{
+  
+        border: 0.5px solid;
+        color: black;
+        width: 16%;
+        height: 22px;
+        position: absolute;
+        left: 3.8%;
+        top: 19%;
+        padding: 1%;
+        background-color: white;
+
+}
+
+#mid{
+    background-color: white;
+    position: absolute;
+    padding: 3%;
+    border-radius: 68px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 5px 9px rgba(0,0,0,0.45);
+}
+#theLine1
+{
+    border: 2px solid white;
+    width: 28.79%;
+    position: absolute;
+    top: 39%;
+    left: 21%;
+}
+
+#theLine2
+{
+    border: 2px solid white;
+    width: 22.5%;
+    position: absolute;
+    left: 53%;
+    top: 49%;
+}
+
+#theLine3
+{
+    top: 39%;
+    left: 50%;
+    width: 0;
+    height: 51px;
+}
+
+#theLine4{
+    top: 63%;
+    left: 21%;
+    width: 29%;
+}
+
+#theLine5
+{
+    top: 51%;
+    left: 50%;
+    width: 0;
+    height: 77px;
+}
+#BussinessReport
+{
+    position: absolute;
+    padding: 3%;
+    background: white;
+    left: 72%;
+    border-radius: 13px;
+    top: 40%;
+    width: 13%;
+    box-shadow: 0px 5px 9px rgba(0,0,0,0.45);
+}
+
+
+#Bussiness
+{
+    position: absolute;
+    padding: 2%;
+    background: white;
+    left: 4%;
+    border-radius: 13px;
+    top: 54%;
+    width: 14%;
+    box-shadow: 0px 5px 9px rgba(0,0,0,0.45);
+}
+
+
+.basicLine
+{
+    border: 2px solid white;
+    width: 22.5%;
+    position: absolute;
+}
+
+.LoginFormPublic {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 32%;
+    left: 62%;
+    padding: 2%;
+    padding-top: 5%;
+    background-color: rgba(255,255,255,0.90);
+    width: 22%;
+    height: 37%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.45);
+}
+
+.publicLoginFrm
+{
+    display: grid;
+    grid-row-gap: 5px;
+    padding: 3%;
+    font-size: 17px;
+}
+
+.loginInput
+{
+    border: none;
+    padding: 2%;
+    padding-left: 0;
+    font-size: 16px;
+    border-bottom: 0.5px solid;
+    background-color: inherit;
+    margin-bottom: 6px;
+    outline: none;
+}
+
+.loginFrame
+{
+    display: grid;
+    padding: 4%;
+}
+
+.LoginsubmitBtn
+{
+        width: 85%;
+        place-self: center;
+        padding: 4%;
+        border-radius: 9px;
+        border: none;
+        font-size: 16px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+        font-family: ariel;
+        font-weight: bold;
+        background-color: rgba(0,255,0,0.45);
+        cursor: pointer;
+}
+
+.otherOption
+{
+    place-self: center;
+    font-size: 13.8px;
+    margin: 5px;
+    font-family: calibri;
+
+}
+.clickHere
+{
+    border: none;
+    background: inherit;
+    cursor: pointer;
+
+}
+.clickHere:hover{
+    color:blue;
+}
+
+.headingLbl
+{
+    
+    padding-left: 21px;
+    border-left: 12px solid;
+    position: relative;
+    left: -9%;
+    top: -13px;
+}
+
+#publicSignUpContainer
+{
+        display: none;
+        width: 35%;
+        position: absolute;
+        top: 10.5%;
+        left: 52%;
+        height: 79%;
+        padding-top: 8%;
+        padding: 2%;
+        background-color: rgba(255,255,255,0.95);
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+        border-radius: 12px;
+        overflow: hidden;
+}
+
+.PubSignUpFrame
+{
+    display: grid;
+    margin-top: 10%;
+    grid-row-gap: 4px;
+    padding: 0%;
+}
+
+.subContainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.PubsignUpTxt
+{
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.45);
+    padding: 2%;
+    margin-bottom: 6px;
+    border-radius: 1px;
+    border-bottom: 0.5px solid;
+    outline-color: black;
+    font-size: 14px;
+}
+
+.signActionBtns
+{
+    place-self: center;
+    width: 90%;
+    border: none;
+    padding: 5%;
+    border-radius: 12px;
+    cursor:pointer;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+}
+
+#HaveAccountBtnCont
+{
+    font-size: 13.8px;
+    font-family: calibri;
+    position: absolute;
+    left: 27%;
+    top: 94%;
+}
+
+#proImg
+{
+    width: 110px;
+    height: 110px;
+    clip-path: circle();
+    position: absolute;
+    top: 1%;
+    left: 72%;
+    object-fit: cover;
+}
+
+.SignUpHeadingLbl
+{
+    padding-left: 21px;
+    border-left: 12px solid;
+    position: absolute;
+    left: 0%;
+    top: 5%;
+    font-size: larger;
+}
+
+.pswdContainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pswdContainer div
+{
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 5px;
+}
+
+.PasswordRecoveryContainer
+{
+    display: none;
+    width: 36%;
+    background-color: rgba(255,255,255,0.85);
+    padding: 1%;
+    position: absolute;
+    top: 27%;
+    left: 56%;
+    min-height: 35%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+    padding-top: 3%;
+
+}
+
+.inputFieldsContainer
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row-gap: 3%;
+    padding: 3%;
+}
+
+.RPswdtxt
+{
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.45);
+    padding: 2%;
+    margin-bottom: 6px;
+    border-radius: 1px;
+    border-bottom: 0.5px solid;
+    outline-color: black;
+    font-size: 14px; 
+}
+
+#RPswdSETBtn1
+{
+    border: none;
+    height: 39px;
+    width: 140px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+    position: relative;
+    left: 17%;
+    cursor: pointer;
+    outline-color: black;
+}
+
+#RPswdCancelBtn1
+{
+    border: none;
+    height: 39px;
+    width: 140px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+    position: relative;
+    left: 20%;
+    cursor: pointer;
+    outline-color:black; 
+}
+
+#About_us
+{
+    display:none;
+    padding: 4%;
+    background-image: url(../resources/picsAndImages/1.jpg);
+    height: -webkit-fill-available;
+    background-size: cover;
+}
+
+.BriefInfo
+{
+    background-color: #ffffff3d;
+    padding: 1%;
+    font-size: 21px;
+    text-align: justify;
+}

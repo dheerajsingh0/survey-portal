@@ -1,0 +1,1135 @@
+body{
+    margin:0;
+}
+
+textarea{
+    font-family: sans-serif;
+    border:0.5px solid;
+}
+.sideMainBar{
+    width: 15%;
+    min-height: -webkit-fill-available;
+    padding: 1%;
+    padding-right: 1%;
+    
+    background-color:rgba(0,0,0,0.85);
+   
+}
+.logo
+{
+    text-align: center;
+    box-shadow: 0px 0px 13px rgba(255,255,255, 0.35);
+    padding: 9%;
+    border-radius: 12px;
+    background-color: rgba(255,255,255,1);
+    color: rgba(0,0,0,0.9);
+    /* opacity: 1; */
+    border: 0.5px solid;
+}
+
+.sMBbtns
+{
+border: none;
+padding: 5%;
+cursor: pointer;
+font-size: small;
+background-color: white;
+/* outline: none; */
+/* width: 100%; */
+text-align: left;
+border-radius: 3px;
+box-shadow: 0px 0px 7.7px rgba(0,0,0,0.45);
+}
+
+.sideButtons
+{
+    display:grid;
+    grid-row-gap: 24px;
+
+}
+.SK_op1_ANDSK_op2
+{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: 5%;
+}
+
+.companyDataCLS
+{
+    width: 54%;
+    padding: 2%;
+    /*display: grid;*/
+    height: 70%;
+    padding-top: 10%;
+   padding-left: 4%;
+   padding-right:4%; 
+    border-radius: 12px;
+    box-shadow: 0px 0px 26px rgba(0,0,0,0.45);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-47%,-50%);
+}
+.profileviewContainerCLS
+{
+  
+    padding: 1%;
+    padding-top: 4%;
+  
+    width: 77%;
+    position: absolute;
+    top: 0;
+    left: 17%;
+    height: 89%;
+   
+}
+
+.edit_proFrameContainer{
+    visibility: hidden;
+}
+
+.headingName
+{
+    text-align: center;
+    font-size: larger;
+    padding:2.5%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.55);
+   
+}
+.THEbox
+{   
+     padding: 2.5%;
+    border-top-left-radius: 10px;
+    position: absolute;
+    background: greenyellow;
+    top: 5.2%;
+    width: 20%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.45);
+    left: 21%;
+    border-bottom-right-radius: 25px;
+}
+.btmBtns
+{
+    padding: 7%;
+    border-radius: 12px;
+    border: none;
+    width: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.45);
+    outline:none;
+    cursor: pointer;
+    background-color: mediumspringgreen;
+    /* border: solid; */
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.btmBtns:hover{
+    background-color:orange;
+}
+
+.btmNavBtns
+{   
+    position: absolute;
+    top: 95%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+    padding: 1%;
+    width: 35%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+    /* border: 0.5px solid; */
+    border-bottom: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0px -3px 7px rgba(0,0,0,0.45);
+    background: white;
+ 
+    
+}
+
+#edit_pro_frame 
+{
+    position: absolute;
+    top: 47%;
+    left:  57.9%;
+    transform: translate(-50%,-50%);
+    border-radius:12px;
+    padding: 1%;
+    padding-top: 1%;
+    height: 69%;
+    width: 40%;
+    box-shadow: 0px 0px 18px rgba(0,0,0,0.45);
+}
+
+.txtfieldsOF_edit_pro
+{
+    display: grid;
+}
+
+input[type="text"],input[type="password"],input[type="email"],input[type="number"]{
+    border: none;
+    border-bottom:0.5px solid;
+    margin-bottom:2.5%; 
+    outline: none;
+    font-size: 18px;
+}
+
+.txtfieldsOF_edit_pro1
+{
+    position: absolute;
+    width: 91%;
+    top: 78%;
+    display: grid;
+    grid-row-gap: 27%;
+    grid-template-columns: 1fr;
+}
+
+#editForm{
+    padding: 2%;
+   
+}
+
+.editBTNS{
+    border:none;
+    padding: 1%;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 25px;
+    outline:none;
+}
+
+#delProContainer
+{
+    border-radius: 12px;
+    width: 43%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*border: 0.5px solid;*/
+    padding: 2%;
+    font-size: 24.5px;
+    box-shadow: 0px 0px 38px rgba(0,0,0,0.45);
+    background-color:white; 
+}
+
+.modalContainer
+{    
+    position: fixed;
+    display: none;
+    /*position: absolute;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#msgContents
+{
+    
+    /* padding: 1%; */
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom:4%;
+}
+
+.AnsBtns
+{
+    border: none;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.45);
+    cursor: pointer;
+    outline: none;
+    width: 37%;
+    margin-left: 8%;
+    background-color: rgba(0,0,0,0.45);
+    color: white;
+}
+
+
+.survey {
+    display:none;
+    /*border:0.5px solid;*/
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+    height: -webkit-fill-available;
+    width: 82%;
+    
+}
+
+.view-box
+{
+    
+    height: 11%;
+}
+
+#headingMsg
+{
+       /* border: 0.5px solid; */
+        text-align: center;
+        font-size: 20px;
+        width: 45%;
+        position: relative;
+        top: 32%;
+        left: 25%;
+        transform: translate(-50%,-50%);
+        padding: 2%;
+        border-radius: 12px;
+        background-color: white;
+        box-shadow: 0px 0px 16px rgba(0,0,0,0.45);
+}
+
+.PrimaryDetails
+{
+    background-color: white;
+    width: 50%;
+    padding-top: 5%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+    padding: 3%;
+}
+
+#fieldsContainer
+{
+    display: grid;
+}
+.PrimaryDataInput
+{
+    border: none;
+    border-bottom: 0.5px solid;
+    margin-bottom:0;
+    outline: none;
+    font-size: 18px;
+}
+.PrimaryDataInputDate
+{
+    border: 0.5px solid;
+    width: 25%;
+    padding: 4px;
+    font-size: 15px;
+}
+
+#nextAndSave
+{
+
+        /* border: 0.5px solid; */
+        display: grid;
+        width: 29%;
+        position: absolute;
+        top: 105%;
+        left: 34%;
+       
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+        background-color: white;
+}
+
+#PrimarySry_Btn1
+{
+    padding: 11px;
+    border: none;
+    background: deepskyblue;
+    cursor: pointer;
+}
+
+#AccountMnu
+{   
+    position: fixed;
+    right: -5px;
+    z-index: 2;
+    /* border: 0.5px solid; */
+    top: 0;
+    /* padding: 2%; */
+    background-color: white;
+    width: 17%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 74px;
+    box-shadow:0px 0px 22px rgba(0,0,0,0.45);
+}
+
+#proButton{
+
+    position: absolute;
+    padding: 12px;
+    border: none;
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    top: 1%;
+    left: 25%;
+    border-radius: 12px;
+    /*border: 0.5px solid;*/
+    outline:none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+#QuickMnu {
+    display: grid;
+    background-color: white;
+    box-shadow: 0px 8px 12px rgba(0,0,0,0.4);
+    width: 70%;
+    position: absolute;
+    padding: 1%;
+    padding-top: 3%;
+    right: 6%;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    height: 7%;
+    overflow: hidden;
+    visibility: hidden;
+    transition-property: height;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+
+.QuickMnuBtns {
+        padding: 5%;
+        font-size: 13px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 3px;
+        border-radius: 12px;
+        background-color: white;
+    }
+
+.QuickMnuBtns:hover{
+background-color: aqua;
+
+}
+
+
+
+.ImageContainer
+{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: -39%;
+    height: 34%;
+    width: 34%;
+    padding: 1%;
+    box-shadow: 0px 0px 19px rgba(0,0,0,0.45);
+    background-color: white;
+
+}
+
+#ImageOfBPro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 0.5px solid;
+    object-fit: cover;
+    width: 65%;
+    height: 65%;
+    box-shadow: 0px 0px 11px rgba(0,0,0,0.45);
+}
+
+#BproImgUpload
+{
+    position: absolute;
+    bottom: 3%;
+    overflow: auto;
+    width: 97%;
+}
+
+
+#securityContainer
+{
+    display: none;
+    position: absolute;
+    /* border: solid; */
+    width: 20%;
+    top: 12%;
+    right: 13%;
+    /* border: 0.5px solid; */
+    z-index: 2;
+    padding: 1%;
+    background-color: white;
+    border-radius: 12px;
+    border-top-right-radius: 0;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.45);
+}
+
+#SecDataFields
+{
+    display: grid;
+}
+
+#TheSaveBtn
+{
+    width: 50%;
+    margin-left: 24%;
+    border: none;
+    padding: 2%;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    font-size: 17;
+    background-color: rgba(0,0,0,0.21);
+}
+
+#mainFrameSuvey
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1%;
+    height: 89%;
+    width: 86%;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+    border-radius: 6px;
+    display:none;
+}
+
+#titleOfSurvey
+{
+    border: 0.5px solid;
+    padding: 1%;
+    width: 69%;
+    height: 71px;
+}
+
+.questionsContainer
+{
+    border: 0.5px solid;
+    position: absolute;
+    width: 95%;
+    top: 17%;
+    padding: 1%;
+}
+
+.AnswerContainer
+{
+    border: 0.5px solid;
+    position: absolute;
+    top: 32%;
+    padding: 1%;
+    width: 71%;
+    height: 62%;
+    overflow: scroll;
+}
+
+#TypeOfAnswerContainer
+{
+    display: grid;
+    width: 22%;
+    position: absolute;
+    padding: 1%;
+    top: 33%;
+    height: 33%;
+    left: 76%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+    background-color: rgba(0,0,0,0.28);
+
+}
+
+.AnswerWaysBtn
+{
+    padding: 4%;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    outline:none;
+
+}
+
+.AnsMultiple
+{
+    border: 0.5px solid;
+    margin-bottom: 9px;
+    padding-top: 1%;
+}
+
+.clearAndcancel
+{
+    font-size: 38px;
+    padding: 0%;
+    cursor: pointer;
+    border: none;
+    background: inherit;
+    color: #bbb;
+}
+
+
+#dropDownContainer
+{
+    border: 0.5px solid;
+    position: absolute;
+    width: 73%;
+    height: 64%;
+    top: 33%;
+}
+
+#drptxt
+{
+    width: 62%;
+    height: 7%;
+    position: absolute;
+    top: 18.5%;
+    left: 3%;
+    padding: 4px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+}
+
+#insertBtn
+{
+    position: absolute;
+    left: 67%;
+    top: 17%;
+    border: none;
+    width: 19%;
+    height: 11%;
+    border-radius: 28px;
+}
+
+#DropDownBox
+{
+    width: 50%;
+    position: absolute;
+    top: 38%;
+    left: 3%;
+    font-size: 21px;
+    border: none;
+    outline-color: black;
+    border-bottom: 0.5px solid;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.45);
+    overflow: scroll;
+}
+
+#optiontxtContainer
+{
+    width: 37%;
+    overflow: scroll;
+    position: absolute;
+    height: 49%;
+    left: 3%;
+    background-color: white;
+    top: 46%;
+}
+
+#resetBtn
+{
+    position: absolute;
+    left: 67%;
+    top: 30%;
+    border: none;
+    width: 19%;
+    height: 11%;
+    border-radius: 28px;
+}
+
+#comment_or_paragraph_container
+{
+    position: absolute;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.45);
+    width: 70%;
+    top: 34%;
+    height: 57%;
+    padding: 1%;
+}
+
+#Date_container
+{
+    position: absolute;
+    border: 0.5px solid;
+    padding: 1%;
+    top: 37%;
+    height: 49%;
+    width: 69%;
+}
+
+
+
+#displayDefaultHere
+{
+    position: absolute;
+    width: 71%;
+    padding: 1%;
+    top: 38%;
+    height: 56%;
+    border: 0.5px solid grey;
+}
+
+#displayDefaultHere label
+{
+    font-size: 32px;
+    padding: 3%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-style: dashed dotted;
+    border-color: #aaa;
+    color: #bbb;
+}
+
+
+.theSaveClass
+{
+    position: fixed;
+    top: 72%;
+    left: 80%;
+    padding: 1%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.45);
+}
+
+
+.saveSubmitClass
+{
+    padding: 6%;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+    width: 144px;
+    background-color: deepskyblue;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+#endSurvey
+{
+    position: absolute;
+    left: 80%;
+    top: 84%;
+    padding: 1%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.45);
+}
+
+#TheCompleter
+{
+    padding: 6%;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+    width: 144px;
+    background-color: gold;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+
+#NumOfQ
+{
+    position: absolute;
+    font-size: 20px;
+    width: 26%;
+    padding: 1%;
+    padding-left: 0;
+    top: 4.7%;
+    left: 71%;
+    height: 4%;
+}
+
+#ManageSurveyContainer
+{
+    position: absolute;
+    border: 0.5px solid;
+    padding: 1%;
+    top: 0;
+    left: 17%;
+    height: -webkit-fill-available;
+    width: 80.5%;
+    overflow: scroll;
+    background-color:white; 
+}
+
+.AllSurvey
+{
+    width: 85%;
+    margin: 12px;
+    padding: 1%;
+    border-radius: 11px;
+    height: 66px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.35);
+    background-color: white;
+}
+
+.littleInfo{
+    height: 60%;
+    width: 16%;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.headOftable
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* border: 0.5px solid; */
+    width: 93%;
+    font-size: larger;
+}
+
+
+
+.disInfo
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 77%;
+    padding-top: 1%;
+}
+
+
+.theBtnsOfSurMng
+{
+    cursor:pointer;
+    width: 68%;
+    padding: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+
+#noSurvey
+{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: -webkit-xxx-large;
+}
+
+.divCells
+{
+    padding: 5%;
+    height: 282px;
+    width: 183px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.45);
+    margin-bottom: 9px;
+    overflow: hidden;
+
+}
+
+
+/*
+.divCells:hover{
+    
+    overflow:auto;
+}
+*/
+.divCellsH
+{
+    visibility: hidden;
+    padding: 5%;
+    height: 161px;
+    border-radius: 4%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.45);
+}
+
+
+#AllSurveys
+{
+    
+    position: absolute;
+    top: -141px;
+    width: 100%;
+}
+
+.litInfo
+{
+    margin: 0;
+    overflow: auto;
+    width: 184px;
+    height: 32px;
+    font-size: 12px;
+}
+
+.TitlePara
+{
+    text-align: -webkit-auto;
+    margin: 0;
+    width: 74%;
+    overflow:auto;
+    height: 16%;
+}
+
+
+
+
+.actbtns
+{
+ 
+    display: grid;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.actbtns input[type="button"]
+{
+    padding: 4%;
+    margin: 3%;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.75);
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+}
+
+.actbtns input[type="button"]:hover
+{
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+}
+
+
+textarea
+{
+    resize:none;
+}
+
+
+#survey_report
+{
+    position: absolute;
+    border: 0.5px solid;
+    padding: 1%;
+    top: 0;
+    left: 17%;
+    height: -webkit-fill-available;
+    width: 80.5%;
+   
+    background-color: white;
+}
+
+#all_survey_container
+{
+    height: inherit;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.45);
+   
+}
+
+.surveysFrame
+{
+    border: 0.5px solid;
+    height: -webkit-fill-available;
+    padding: 1%;
+    overflow: scroll;
+}
+
+.reportSurveyTable 
+{
+   
+    width: 95%;
+    padding: 4px;
+    position: absolute;
+    top: -149px;
+}
+
+.contentsSurveyReport
+{
+    margin: 4px;
+    padding: 8px;
+    height: 150px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.35);
+    transition: all 0.2s linear;
+}
+
+.RhearderTitle
+{
+    background: #405258c2;
+    height: 23px;
+    position: relative;
+    margin: auto;
+    width: 75%;
+    top: -5%;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-bottom: 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.45);
+}
+
+.RtitleOfsurvey
+{
+    overflow: hidden;
+    height: 23%;
+    padding: 2px;
+    margin-bottom: 12px;
+    text-align: center
+}
+
+.Rtiming
+{
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.RPBtn
+{
+    text-align: center;
+}
+
+.TheREPORTbtn
+{
+    border: none;
+    padding: 2%;
+    width: 56%;
+    transition: all 0.4s linear;
+    border-radius: 7px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.35);
+    background-color: white;
+    outline:none;
+}
+
+.reportSurveyTable td{
+        width: 20%;    
+}
+
+input.TheREPORTbtn:hover {
+    background-color: rgba(0,0,0,0.85);
+    color: white;   
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0,0,0,0.85);
+}
+
+.contentsSurveyReport:hover {
+    background-color: #000000bd;
+    color: white;
+}
+
+#Report_of_a_survey
+{
+    box-shadow: 0 0 12px rgba(0,0,0,0.45);
+    padding: 2%;
+    width: 70%;
+    background: white;
+    opacity: 0.89;
+    margin: auto;
+}
+
+.EachQuestiions_report_container
+{
+    
+    padding: 1%;
+   
+}
+
+.graph_section
+{
+    padding: 2%;
+ 
+    
+}
+
+.THEchart
+{
+    
+    height: 400px;
+    width: 86%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    border-top: 0.5px solid;
+    border-right: 0.5px solid;
+    text-align: center;
+    transform: rotate(-180deg);
+
+}
+
+.columnBar
+{
+ 
+    padding: 1%;
+}
+
+.ACTIVEHB
+{
+    box-shadow: 0 0 5px rgba(0,0,0,0.45);
+    background: black;
+    color: white;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 5px;
+}
+
+.horizontalAxis
+{
+    width: 86%;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    
+}
+
+.barDesign
+{
+    height: 98%;
+    margin: auto;
+    width: 70%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.35);
+    background-color: deepskyblue;
+    transform: rotate(180deg);
+}
+
+
+.optInfo
+{
+    padding: 1%;
+  
+    display: grid;
+    width: 84%;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.All_FeedBack_Container
+{
+   
+    padding: 1%;
+    box-shadow: 0 0 4px rgba(0,0,0,0.56);
+    display: grid;
+}
+.comments
+{
+   
+    padding: 1%
+}
+
+.dateClass
+{
+   
+    padding: 1%;
+}
+
+.DateReport
+{
+    
+    padding: 1%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
